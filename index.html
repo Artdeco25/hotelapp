@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ArtDeco Apartment</title>
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+<!-- ALL YOUR HTML CONTENT IS HERE, UNCHANGED... -->
+<header class="header_area">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand logo_h" href="index.html" style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 28px; color: #004080; -webkit-text-stroke: 1px #DAA520; text-decoration: none;">ArtDeco Apartments</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <ul class="nav navbar-nav menu_nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+<!--                    <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item submenu dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="elements.html">Elemests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="banner_area">
+    <div class="booking_table d_flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+             data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h6>Find Your Sanctuary</h6>
+                <h2>Breathe, Unwind & Stay</h2>
+                <p>Step away from the everyday. Discover a space designed for you to unwind, recharge, and reconnect<br> Discover a seamless booking experience and a stay that calms the mind and soothes the soul.
+                    Your exclusive retreat is just a click away.</p>
+                <a href="#accomodation-section" id="get-started-btn" class="btn theme_btn button_hover">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="accomodation_area section_gap" id="accomodation-section">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">ArtDeco Apartments</h2>
+            <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, </p>
+        </div>
+        <div class="row mb_30">
+            <div class="col-lg-3 col-sm-6">
+                <div class="accomodation_item text-center" data-room-type="Double Deluxe Room">
+                    <div class="hotel_img">
+                        <img src="image/room1.jpg" alt="Double Deluxe Room" class="img-fluid">
+                        <button class="btn theme_btn button_hover book-now-btn" data-toggle="modal"
+                                data-target="#bookingModal">Book Now
+                        </button>
+                    </div>
+                    <a href="#"><h4 class="sec_h4">Double Deluxe Room</h4></a>
+                    <h5>$250<small>/night</small></h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="accomodation_item text-center" data-room-type="Single Deluxe Room">
+                    <div class="hotel_img">
+                        <img src="image/room2.jpg" alt="Single Deluxe Room" class="img-fluid">
+                        <button class="btn theme_btn button_hover book-now-btn" data-toggle="modal"
+                                data-target="#bookingModal">Book Now
+                        </button>
+                    </div>
+                    <a href="#"><h4 class="sec_h4">Single Deluxe Room</h4></a>
+                    <h5>$200<small>/night</small></h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="accomodation_item text-center" data-room-type="Honeymoon Suit">
+                    <div class="hotel_img">
+                        <img src="image/room3.jpg" alt="Honeymoon Suit" class="img-fluid">
+                        <button class="btn theme_btn button_hover book-now-btn" data-toggle="modal"
+                                data-target="#bookingModal">Book Now
+                        </button>
+                    </div>
+                    <a href="#"><h4 class="sec_h4">Honeymoon Suit</h4></a>
+                    <h5>$750<small>/night</small></h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="accomodation_item text-center" data-room-type="Economy Double">
+                    <div class="hotel_img">
+                        <img src="image/room4.jpg" alt="Economy Double" class="img-fluid">
+                        <button class="btn theme_btn button_hover book-now-btn" data-toggle="modal"
+                                data-target="#bookingModal">Book Now
+                        </button>
+                    </div>
+                    <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                    <h5>$200<small>/night</small></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="facilities_area section_gap">
+    <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
+    </div>
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_w">ArtDeco Facilities</h2>
+            <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <div class="row mb_30">
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Restaurant</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports CLub</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Swimming Pool</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-car"></i>Rent a Car</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gymnesium</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="facilities_item">
+                    <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i>Bar</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and
+                        power.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about_history_area section_gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d_flex align-items-center">
+                <div class="about_content ">
+                    <h2 class="title title_color">About Us <br>Our History<br>Mission & Vision</h2>
+                    <p>
+                        At the heart of every journey is a place to rest, recharge, and feel at home. That’s why we created this platform — not just to help you find a room, but to help you find comfort, connection, and care.
+                        We believe that every stay should be more than just a room. It should be an experience — warm welcomes, peaceful nights, and memories that stay long after check-out. Whether you’re traveling for work, leisure, or love, we’re here to make every moment smooth, secure, and special.
+                        Founded with a passion for hospitality and technology, our journey began with a simple mission: to make room booking effortless and heartfelt. From a small idea born out of late-night travel struggles, we’ve grown into a trusted platform, helping thousands of travelers find their perfect space.</p>
+<!--                    <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonial_area section_gap">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">Testimonial from our Clients</h2>
+            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+        </div>
+        <div class="testimonial_slider owl-carousel">
+            <div class="media testimonial_item">
+                <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                <div class="media-body">
+                    <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you
+                        think about it, you travel across her face, and She is the </p>
+                    <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="media testimonial_item">
+                <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                <div class="media-body">
+                    <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you
+                        think about it, you travel across her face, and She is the </p>
+                    <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="latest_blog_area section_gap">
+    <div class="container">
+        <div class="section_title text-center">
+            <h2 class="title_color">latest posts from blog</h2>
+            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+        </div>
+        <div class="row mb_30">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-recent-blog-post">
+                    <div class="thumb">
+                        <img class="img-fluid" src="image/blog/blog-1.jpg" alt="post">
+                    </div>
+                    <div class="details">
+                        <div class="tags">
+                            <a href="#" class="button_hover tag_btn">Travel</a>
+                            <a href="#" class="button_hover tag_btn">Life Style</a>
+                        </div>
+                        <a href="#"><h4 class="sec_h4">Low Cost Advertising</h4></a>
+                        <p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A
+                            farmer.</p>
+                        <h6 class="date title_color">31st June,2025</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-recent-blog-post">
+                    <div class="thumb">
+                        <img class="img-fluid" src="image/blog/blog-2.jpg" alt="post">
+                    </div>
+                    <div class="details">
+                        <div class="tags">
+                            <a href="#" class="button_hover tag_btn">Travel</a>
+                            <a href="#" class="button_hover tag_btn">Life Style</a>
+                        </div>
+                        <a href="#"><h4 class="sec_h4">Creative Outdoor Ads</h4></a>
+                        <p>Self-doubt and fear interfere with our ability to achieve or set goals. Self-doubt and fear
+                            are</p>
+                        <h6 class="date title_color">31st June,2025</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-recent-blog-post">
+                    <div class="thumb">
+                        <img class="img-fluid" src="image/blog/blog-3.jpg" alt="post">
+                    </div>
+                    <div class="details">
+                        <div class="tags">
+                            <a href="#" class="button_hover tag_btn">Travel</a>
+                            <a href="#" class="button_hover tag_btn">Life Style</a>
+                        </div>
+                        <a href="#"><h4 class="sec_h4">It S Classified How To Utilize Free</h4></a>
+                        <p>Why do you want to motivate yourself? Actually, just answering that question fully can </p>
+                        <h6 class="date title_color">31st June,2025</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-area section_gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 class="footer_title">About Agency</h6>
+                    <p>The world has become so fast paced that people don’t want to stand by reading a page of
+                        information, they would much rather look at a presentation and understand the message. It has
+                        come to a point </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 class="footer_title">Navigation Links</h6>
+                    <div class="row">
+                        <div class="col-4">
+                            <ul class="list_style">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Feature</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list_style">
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6 class="footer_title">Newsletter</h6>
+                    <p>For business professionals caught between high OEM price and mediocre print and graphic
+                        output, </p>
+                    <div id="mc_embed_signup">
+                        <form target="_blank"
+                              action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
+                              method="get" class="subscribe_form relative">
+                            <div class="input-group d-flex flex-row">
+                                <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''"
+                                       onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                            </div>
+                            <div class="mt-10 info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget instafeed">
+                    <h6 class="footer_title">InstaFeed</h6>
+                    <ul class="list_style instafeed d-flex flex-wrap">
+                        <li><img src="image/instagram/Image-01.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-02.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-03.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-04.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-05.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-06.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-07.jpg" alt=""></li>
+                        <li><img src="image/instagram/Image-08.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border_line"></div>
+        <div class="row footer-bottom d-flex justify-content-between align-items-center">
+            <p class="col-lg-8 col-sm-12 footer-text m-0">
+                Copyright ©<script>document.write(new Date().getFullYear());</script>
+                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">ArtDeco</a>
+            </p>
+            <div class="col-lg-4 col-sm-12 footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookingModalLabel">Book Your Room</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-booking-message" class="text-center" style="padding-bottom: 15px;"></div>
+                <form id="modal-booking-form">
+                    <h4 id="modal-room-type" class="text-center title_color mb-4"></h4>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label for="modal-customer-name">Your Name</label>
+                            <input type="text" class="form-control" id="modal-customer-name" placeholder="Enter your name" required/>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="modal-arrival-date">Arrival Date</label>
+                            <input type="date" id="modal-arrival-date" class="form-control" required>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="modal-departure-date">Departure Date</label>
+                            <input type="date" id="modal-departure-date" class="form-control" required>
+                        </div>
+
+                        <div class="col-md-4 form-group">
+                            <label for="modal-adults-select">Adults</label>
+                            <select class="form-control" id="modal-adults-select">
+                                <option value="1">1</option>
+                                <option value="2" selected>2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label for="modal-children-select">Children</label>
+                            <select class="form-.control" id="modal-children-select">
+                                <option value="0" selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        </div>
+                    <div class="col-md-4 form-group">
+                        <label for="modal-rooms-select">Number of Rooms</label>
+                        <select class="form-control" id="modal-rooms-select">
+                            <option value="1" selected>1</option><option value="2">2</option><option value="3">3</option>
+                        </select>
+                    </div>
+                    <input type="hidden" id="modal-room-type-hidden" value="">
+                    <div class="text-center mt-4">
+                        <button type="submit" id="submit-booking-btn" class="btn theme_btn button_hover">Confirm
+                            Booking
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ======================================================================= -->
+<!-- =================== ALL JAVASCRIPT FILES ARE HERE ===================== -->
+<!-- ======================================================================= -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/nice-select/js/jquery.nice-select.js"></script>
+
+<!-- The conflicting scripts mail-script.js and custom.js are NOT loaded. -->
+
+<!-- ======================================================================= -->
+<!-- ===================== OUR MASTER JAVASCRIPT BLOCK ===================== -->
+<!-- ======================================================================= -->
+<script>
+    // This function runs once the entire page is loaded.
+    $(document).ready(function() {
+
+        // --- 1. Initialize all template plugins ---
+        console.log("Initializing plugins...");
+
+
+        // Initialize Owl Carousel for testimonials
+        if ($('.testimonial_slider').length) {
+            $('.testimonial_slider').owlCarousel({
+                loop: true,
+                margin: 30,
+                items: 1,
+                nav: false,
+                dots: true,
+                responsiveClass: true,
+            });
+        }
+        // --- 2. NEW: Configure Native Date Pickers ---
+        const today = new Date().toISOString().split('T')[0];
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        const tomorrowString = tomorrow.toISOString().split('T')[0];
+        // Initialize Nice Select for dropdowns
+        $('select').niceSelect();
+
+        // Set the minimum selectable dates to prevent booking in the past
+        $('#modal-arrival-date').attr('min', today);
+        $('#modal-departure-date').attr('min', tomorrowString);
+        $('#modal-arrival-date').val(today);
+        $('#modal-departure-date').val(tomorrowString);
+
+        // Link the pickers: departure must be after arrival
+        $('#modal-arrival-date').on('change', function() {
+            const arrivalDate = $(this).val();
+            const nextDay = new Date(arrivalDate);
+            nextDay.setDate(nextDay.getDate() + 1);
+            const minDepartureString = nextDay.toISOString().split('T')[0];
+
+            $('#modal-departure-date').attr('min', minDepartureString);
+            if ($('#modal-departure-date').val() <= arrivalDate) {
+                $('#modal-departure-date').val(minDepartureString);
+            }
+        });
+
+
+        // --- 2. Handle "Book Now" button clicks ---
+        $('.book-now-btn').on('click', function () {
+            const accommodationItem = $(this).closest('.accomodation_item');
+            const roomType = accommodationItem.data('room-type');
+
+            $('#modal-room-type').text(roomType);
+            $('#modal-room-type-hidden').val(roomType);
+            $('#modal-booking-message').html('');
+            $('#modal-booking-form')[0].reset();
+            $('select').niceSelect('update'); // Important: update nice-select after form reset
+        });
+
+        // --- 4. Handle the final form submission ---
+        $('#modal-booking-form').on('submit', async function(event) {
+            event.preventDefault();
+            const bookingMessage = $('#modal-booking-message');
+            const submitButton = $('#submit-booking-btn');
+            submitButton.prop('disabled', true).text('Processing...');
+
+            // Getting data is now very simple! .val() gives the correct 'YYYY-MM-DD' format.
+            const bookingData = {
+                roomType: $('#modal-room-type-hidden').val(),
+                arrivalDate: $('#modal-arrival-date').val(),
+                departureDate: $('#modal-departure-date').val(),
+                adults: $('#modal-adults-select').val(),
+                children: $('#modal-children-select').val(),
+                rooms: $('#modal-rooms-select').val(),
+                customer_name: $('#modal-customer-name').val()
+            };
+
+            if (!bookingData.arrivalDate || !bookingData.departureDate) {
+                bookingMessage.html(`<div class="alert alert-danger">Please select valid dates.</div>`);
+                submitButton.prop('disabled', false).text('Confirm Booking');
+                return;
+            }
+
+            console.log("Submitting to backend:", bookingData);
+
+            try {
+                const response = await fetch('http://localhost:3000/api/bookings', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(bookingData)
+                });
+                const result = await response.json();
+                if (!response.ok) { throw new Error(result.message || 'Unknown error'); }
+
+                const arrivalDisplay = new Date(bookingData.arrivalDate).toLocaleDateString('en-GB');
+                const departureDisplay = new Date(bookingData.departureDate).toLocaleDateString('en-GB');
+
+                bookingMessage.html(`
+                <div class="alert alert-success">
+                    <h4>${result.message}</h4>
+                    <p><strong>Booking ID:</strong> ${result.bookingDetails.booking_id}</p>
+                    <p><strong>Room:</strong> ${bookingData.roomType}<br>
+                    <strong>Arrival:</strong> ${arrivalDisplay}<br>
+                    <strong>Departure:</strong> ${departureDisplay}</p>
+                </div>`);
+                $('#modal-booking-form')[0].reset();
+                $('select').niceSelect('update');
+
+            } catch (error) {
+                bookingMessage.html(`<div class="alert alert-danger"><strong>Booking Failed:</strong> ${error.message}</div>`);
+            } finally {
+                submitButton.prop('disabled', false).text('Confirm Booking');
+            }
+        });
+
+        // --- 4. Handle the "Get Started" banner button to scroll smoothly ---
+        $('#get-started-btn').on('click', function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $('#accomodation-section').offset().top
+            }, 800);
+        });
+    });
+</script>
+
+</body>
+</html>
